@@ -1,25 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declaration of document type and HTML version -->
+<html lang="en"> <!-- Start of HTML document with language set to English -->
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive viewport configuration -->
+    <title>To-Do List App</title> <!-- Title of the web page displayed in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to an external CSS file for styling -->
 </head>
 <body>
-   <div class="container">
-    <div class="todo-app">
-        <h2>To-Do List <img src="images/icon.png"></h2>
-        <div class="row">
-            <input type="text" id="inputBox" placeholder="Add your text">
-            <button onclick="addTask()">Add</button>
+   <div class="container"> <!-- Container for the entire content of the to-do list app -->
+    <div class="todo-app"> <!-- Container for the to-do list application -->
+        <h2>To-Do List <img src="images/icon.png"></h2> <!-- Heading of the to-do list with an icon -->
+        <div class="row"> <!-- Container for the input field and the "Add" button -->
+            <input type="text" id="inputBox" placeholder="Add your text"> <!-- Input field for entering tasks -->
+            <button onclick="addTask()">Add</button> <!-- Button to add a task when clicked -->
         </div>
-        <ul id="list-container">
+        <ul id="list-container"> <!-- Unordered list to display the tasks -->
+            <!-- List items for tasks -->
             <!-- <li class="checked">Task 1</li>
             <li>Task 2</li>
             <li>Task 3</li> -->
         </ul>
     </div>
 </div> 
-<script src="script.js"></script>
+<script src="script.js"></script> <!-- Link to an external JavaScript file for functionality -->
 </body>
+</html>
+
 </html>
